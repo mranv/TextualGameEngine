@@ -6,6 +6,9 @@
 
 
 void RenderSystem::update(std::vector<Entity>& entities) {
+    // Initialize the componentManager pointer
+    ComponentManager* componentManager = ComponentManager::getInstance();
+
     for (auto& entity : entities) {
         PositionComponent* position = static_cast<PositionComponent*>(componentManager->getComponent(entity.getId(), "Position"));
         NameComponent* name = static_cast<NameComponent*>(componentManager->getComponent(entity.getId(), "Name"));
