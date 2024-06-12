@@ -26,7 +26,7 @@ A simple textual game engine using C++ and the Entity-Component-System (ECS) arc
 ## How to Build and Run
 
 ```
-git clone https://github.com/yourusername/TextualGameEngine.git && cd TextualGameEngine
+git clone https://github.com/mranv/TextualGameEngine.git && cd TextualGameEngine
 ```
 
 ## Compile the Project:
