@@ -2,6 +2,8 @@
 #define RENDER_SYSTEM_H
 
 #include "system.h"
+#include "systems/render_system.h"
+
 
 class RenderSystem : public System {
 public:

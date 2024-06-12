@@ -1,4 +1,5 @@
 #include "entity_manager.h"
+#include <algorithm> 
 
 int EntityManager::nextId = 0;
 

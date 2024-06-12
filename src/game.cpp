@@ -8,6 +8,7 @@
 #include "components/position_component.h"
 #include "components/name_component.h"
 #include "components/health_component.h"
+#include <memory>
 
 void Game::initialize() {
     // Initialize ECS Managers

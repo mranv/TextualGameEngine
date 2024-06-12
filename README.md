@@ -32,7 +32,8 @@ git clone https://github.com/mranv/TextualGameEngine.git && cd TextualGameEngine
 ## Compile the Project:
 
 ```
-g++ -std=c++11 src/*.cpp src/systems/*.cpp src/components/*.cpp -o TextualGameEngine
+g++ -std=c++14 -Iinclude src/*.cpp src/systems/*.cpp src/components/*.cpp -o TextualGameEngine
+
 ```
 
 ## Run the Game:

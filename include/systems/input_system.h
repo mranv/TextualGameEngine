@@ -2,6 +2,8 @@
 #define INPUT_SYSTEM_H
 
 #include "system.h"
+#include "systems/input_system.h"
+
 
 class InputSystem : public System {
 public:
