@@ -16,4 +16,6 @@ private:
     static int nextId;
 };
 
+int EntityManager::nextId = 0;
+
 #endif // ENTITY_MANAGER_H

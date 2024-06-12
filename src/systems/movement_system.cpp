@@ -4,6 +4,9 @@
 
 
 void MovementSystem::update(std::vector<Entity>& entities) {
+    // Initialize the componentManager pointer
+    ComponentManager* componentManager = ComponentManager::getInstance();
+
     for (auto& entity : entities) {
         PositionComponent* position = dynamic_cast<PositionComponent*>(componentManager->getComponent(entity.getId(), "Position"));
         if (position) {

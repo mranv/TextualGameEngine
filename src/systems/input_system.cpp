@@ -19,6 +19,7 @@ void InputSystem::update(std::vector<Entity>& entities) {
 }
 
 void InputSystem::movePlayer(std::vector<Entity>& entities) {
+    ComponentManager* componentManager = ComponentManager::getInstance(); // Declare and initialize the componentManager variable
     for (auto& entity : entities) {
         if (entity.getName() == "Player") {
             PositionComponent* position = dynamic_cast<PositionComponent*>(componentManager->getComponent(entity.getId(), "Position"));

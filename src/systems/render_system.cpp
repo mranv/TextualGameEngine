@@ -7,8 +7,8 @@
 
 void RenderSystem::update(std::vector<Entity>& entities) {
     for (auto& entity : entities) {
-        PositionComponent* position = dynamic_cast<PositionComponent*>(componentManager->getComponent(entity.getId(), "Position"));
-        NameComponent* name = dynamic_cast<NameComponent*>(componentManager->getComponent(entity.getId(), "Name"));
+        PositionComponent* position = static_cast<PositionComponent*>(componentManager->getComponent(entity.getId(), "Position"));
+        NameComponent* name = static_cast<NameComponent*>(componentManager->getComponent(entity.getId(), "Name"));
         if (position && name) {
             std::cout << name->name << " is at (" << position->x << ", " << position->y << ")" << std::endl;
         }

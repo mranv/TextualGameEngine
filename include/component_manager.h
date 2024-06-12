@@ -1,5 +1,7 @@
 #ifndef COMPONENT_MANAGER_H
 #define COMPONENT_MANAGER_H
+#include "component.h"
+
 
 #include <unordered_map>
 #include <string>
