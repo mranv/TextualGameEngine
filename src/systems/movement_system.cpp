@@ -1,6 +1,7 @@
-#include "movement_system.h"
 #include "component_manager.h"
 #include "components/position_component.h"
+#include "systems/movement_system.h"
+
 
 void MovementSystem::update(std::vector<Entity>& entities) {
     for (auto& entity : entities) {

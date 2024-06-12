@@ -1,8 +1,9 @@
-#include "render_system.h"
 #include <iostream>
 #include "component_manager.h"
 #include "components/position_component.h"
 #include "components/name_component.h"
+#include "systems/render_system.h"
+
 
 void RenderSystem::update(std::vector<Entity>& entities) {
     for (auto& entity : entities) {

@@ -1,9 +1,10 @@
-#include "input_system.h"
 #include <iostream>
 #include <string>
 #include "entity_manager.h"
 #include "component_manager.h"
 #include "components/position_component.h"
+#include "systems/input_system.h"
+
 
 void InputSystem::update(std::vector<Entity>& entities) {
     std::string command;
