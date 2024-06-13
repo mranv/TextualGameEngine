@@ -1,0 +1,10 @@
+^C:\USERS\ANUBHAVGAIN\DESKTOP\D3V\TEXTUALGAMEENGINE\ITALIENQUISAUTE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute -BC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute --check-stamp-file C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

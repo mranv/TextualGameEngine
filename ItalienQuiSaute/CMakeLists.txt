@@ -6,12 +6,11 @@ project(ItalienQuiSaute)
 set(CMAKE_CXX_STANDARD 20)
 
 # Tell CMake to use Vcpkg for package management
-set(VCPKG_TARGET_TRIPLET "x64-windows-debug")
-set(CMAKE_TOOLCHAIN_FILE C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
+set(VCPKG_TARGET_TRIPLET "x64-windows")
+set(CMAKE_TOOLCHAIN_FILE "C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
-set(SFML_DIR C:/vcpkg/installed/x64-windows/share/sfml)
-set(CURL_INCLUDE_DIR C:/vcpkg/installed/x64-windows/share/curl)
-set(libcurl-simple-https_DIR C:/vcpkg/installed/x64-windows/share/libcurl-simple-https)
+# Set CMAKE_PREFIX_PATH to include the vcpkg install directory
+set(CMAKE_PREFIX_PATH "C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/vcpkg/installed/x64-windows")
 
 # Find SFML
 find_package(SFML 2.5 COMPONENTS system window graphics REQUIRED)
@@ -21,8 +20,6 @@ find_package(CURL REQUIRED)
 
 # Find libcurl-simple-https
 find_package(libcurl-simple-https REQUIRED)
-
-
 
 # Add source files
 set(SOURCES
@@ -64,10 +61,11 @@ set(SOURCES
 # Add executable
 add_executable(ItalienQuiSaute ${SOURCES})
 
+# Include directories for CURL
+include_directories(${CURL_INCLUDE_DIRS})
+
 # Link SFML libraries
 target_link_libraries(ItalienQuiSaute sfml-graphics sfml-window sfml-system)
 
-# Link libcurl-simple-https library
-target_link_libraries(ItalienQuiSaute libcurl-simple-https)
-
-
+# Link CURL and libcurl-simple-https libraries
+target_link_libraries(ItalienQuiSaute ${CURL_LIBRARIES} libcurl-simple-https)

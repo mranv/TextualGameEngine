@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{23CA206F-7A5E-323B-95AD-A69A6F35D9A8}</ProjectGuid>
+    <ProjectGuid>{A92BA478-BA34-3F67-81B0-23D913B3E74B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ItalienQuiSaute</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ItalienQuiSaute.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ItalienQuiSaute</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ItalienQuiSaute.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ItalienQuiSaute</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ItalienQuiSaute.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ItalienQuiSaute</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ItalienQuiSaute.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ItalienQuiSaute</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/vcpkg/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/AnubhavGain/Desktop/d3v/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,13 +102,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,13 +117,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/Debug/ItalienQuiSaute.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/Debug/ItalienQuiSaute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/Debug/ItalienQuiSaute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/Debug/ItalienQuiSaute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -131,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/vcpkg/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/AnubhavGain/Desktop/d3v/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -147,13 +148,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,13 +163,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\vcpkg\vcpkg\installed\x64-windows\lib\sfml-graphics.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\sfml-window.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\sfml-system.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\libcurl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\sfml-graphics.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\sfml-window.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\sfml-system.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\libcurl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/Release/ItalienQuiSaute.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/Release/ItalienQuiSaute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/Release/ItalienQuiSaute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/Release/ItalienQuiSaute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -176,7 +178,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/vcpkg/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/AnubhavGain/Desktop/d3v/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -192,13 +194,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,13 +209,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/MinSizeRel/ItalienQuiSaute.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/MinSizeRel/ItalienQuiSaute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/MinSizeRel/ItalienQuiSaute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/MinSizeRel/ItalienQuiSaute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -221,7 +224,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/vcpkg/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/AnubhavGain/Desktop/d3v/vcpkg/installed/x64-windows/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -236,13 +239,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\vcpkg\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,13 +254,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib;D:\vcpkg\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;D:\vcpkg\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-graphics-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-window-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\sfml-system-d.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\lib\libcurl-simple-https.lib;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\debug\lib\libcurl-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/RelWithDebInfo/ItalienQuiSaute.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/RelWithDebInfo/ItalienQuiSaute.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/RelWithDebInfo/ItalienQuiSaute.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/RelWithDebInfo/ItalienQuiSaute.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,11 +268,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute -BD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute --check-stamp-file D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute -BC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute --check-stamp-file C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +280,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCXXCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeRCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeSystem.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute -BD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute --check-stamp-file D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute -BC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute --check-stamp-file C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,12 +293,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCXXCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeRCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeSystem.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute -BD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute --check-stamp-file D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute -BC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute --check-stamp-file C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,12 +306,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCXXCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeRCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeSystem.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute -BD:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute --check-stamp-file D:/projects/ItalienQuiSaute/CPP-Game/ItalienQuiSaute/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute -BC:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute --check-stamp-file C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,44 +319,44 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\SelectLibraryConfigurations.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\3.26.3\CMakeSystem.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;D:\vcpkg\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindCURL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\SelectLibraryConfigurations.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeCXXCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeRCCompiler.cmake;C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\3.29.5\CMakeSystem.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\curl\CURLTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\libcurl-simple-https\libcurl-simple-httpsTargets.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfig.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigDependencies.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLConfigVersion.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-debug.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets-release.cmake;C:\Users\AnubhavGain\Desktop\d3v\vcpkg\installed\x64-windows\share\sfml\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\FileReader.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\GameManager.hpp" />
-    <ClCompile Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\ItalienQuiSaute.cpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\Level.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\Menu.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\API\RequestManager.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\API\nlohmann\json.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\API\nlohmann\json_fwd.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\CameraComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\ColliderComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\Component.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\GravityComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\HealthComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\PlayerControllerComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\PlayerStateComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\SpriteRendererComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\TransformComponent.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Background.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Enemy.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Entity.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Flag.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\GameObject.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\PlayerEntity.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Libraries\Maths\Vector2.h" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\AnimationsManager.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\EntityManager.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\InputManager.hpp" />
-    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\TexturesManager.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Game\Source\FileReader.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Game\Source\GameManager.hpp" />
+    <ClCompile Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Game\Source\ItalienQuiSaute.cpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Game\Source\Level.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Game\Source\Menu.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\API\RequestManager.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\API\nlohmann\json.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\API\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\CameraComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\ColliderComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\Component.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\GravityComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\HealthComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\PlayerControllerComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\PlayerStateComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\SpriteRendererComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Components\TransformComponent.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Entities\Background.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Entities\Enemy.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Entities\Entity.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Entities\Flag.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Entities\GameObject.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\Entities\PlayerEntity.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\System\Libraries\Maths\Vector2.h" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\System\Managers\AnimationsManager.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\System\Managers\EntityManager.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\System\Managers\InputManager.hpp" />
+    <ClInclude Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\Engine\System\Managers\TexturesManager.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\ZERO_CHECK.vcxproj">
-      <Project>{307E74D7-FD01-3EB6-8DF9-71EBF03B9DD3}</Project>
+    <ProjectReference Include="C:\Users\AnubhavGain\Desktop\d3v\TextualGameEngine\ItalienQuiSaute\ZERO_CHECK.vcxproj">
+      <Project>{ACA08650-D8FA-3F4F-B18D-5EBC06E2ECD4}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
