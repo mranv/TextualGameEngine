@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\ItalienQuiSaute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\FileReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\GameManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\Level.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Game\Source\Menu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\API\RequestManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\API\nlohmann\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\API\nlohmann\json_fwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\CameraComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\ColliderComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\Component.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\GravityComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\HealthComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\PlayerControllerComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\PlayerStateComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\SpriteRendererComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Components\TransformComponent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Background.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Enemy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\Flag.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\GameObject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\Entities\PlayerEntity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Libraries\Maths\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\AnimationsManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\EntityManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\Engine\System\Managers\TexturesManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\projects\ItalienQuiSaute\CPP-Game\ItalienQuiSaute\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{38C56F38-417F-30D6-8CDF-F63CD6CBAA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{31CEA035-1618-39F4-90BB-DB05917B6CBF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

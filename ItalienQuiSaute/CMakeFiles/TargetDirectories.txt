@@ -1,3 +1,0 @@
-C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/ItalienQuiSaute.dir
-C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/ALL_BUILD.dir
-C:/Users/AnubhavGain/Desktop/d3v/TextualGameEngine/ItalienQuiSaute/CMakeFiles/ZERO_CHECK.dir
